@@ -1,0 +1,95 @@
+@media only screen and (max-width:980px){
+
+    .cardGeral{
+        flex-direction: column;
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+
+
+    }
+    
+}
+
+body{
+    background-image: url(https://i2.wp.com/www.altofest.com/wp-content/uploads/fundo-do-site.jpg)
+}
+.title{
+    color: whitesmoke;
+    background-color:teal;
+    width: 22%;
+    height: 100px;
+    margin-left: 300px;
+    border: solid black;
+    margin-block-start: 100px;
+    margin-block-end: 100px;
+    
+
+} 
+.formu{
+    color:whitesmoke;
+    border: 1px solid  teal;
+    width:13.2%;
+    background-color: black;
+    margin-left: 100px 
+    
+}
+.tabel{
+    background-color: brown;
+    float:right
+}
+
+.lista{
+    background-color:rebeccapurple;
+    color: black;
+    float:right;
+}
+.nome{
+    padding-top: 10px;
+    text-align: center;
+}
+.card1{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(255, 123, 0);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.card2{
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: 5px solid blue;
+    display: flex;  
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.card3{
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: 5px solid  red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+
+}
+.cardGeral{
+    padding-block-start: 10%;
+    padding-block-end: 10%;
+    justify-content: space-around;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+     
